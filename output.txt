@@ -1,0 +1,63 @@
+PS E:\bluejay delivery> python employee_report.py Assignment_Timecard.xlsx
+Assignment_Timecard.xlsx
+Reading the input file...
+File loaded.
+Now cleansing the bad data...
+----------- Select Task ------------
+Enter the operation number you want to perform:
+1. Get a list of employee worked for 'X' consecutive days
+2. Get a list of employee who has less than 'X' hours and greater than 'Y' hours between shifts.
+3. Get a list of employee worked for more than 'X' hours in a shift
+4 Exit
+1
+Enter the minimum number of consecutive days: 7
+Calculating...
+
+*********** Output ***********
+{'WFS000522', 'WFS000424', 'WFS000456', 'WFS000473'}
+**********************
+----------- Finished Task. ------------
+
+
+----------- Select Task ------------
+Enter the operation number you want to perform:
+1. Get a list of employee worked for 'X' consecutive days
+2. Get a list of employee who has less than 'X' hours and greater than 'Y' hours between shifts.
+3. Get a list of employee worked for more than 'X' hours in a shift
+4 Exit
+2
+Enter the max hours of gap between shifts: 10
+Enter the min hours of gap between shifts: 1
+Calculating...
+
+*********** Output ***********
+{'WFS000153'}
+**********************
+----------- Finished Task. ------------
+
+
+----------- Select Task ------------
+Enter the operation number you want to perform:
+1. Get a list of employee worked for 'X' consecutive days
+2. Get a list of employee who has less than 'X' hours and greater than 'Y' hours between shifts.
+3. Get a list of employee worked for more than 'X' hours in a shift
+4 Exit
+3
+Enter the minimum number of shift hours: 14
+Calculating...
+
+*********** Output ***********
+{'WFS000523'}
+**********************
+----------- Finished Task. ------------
+
+
+----------- Select Task ------------
+Enter the operation number you want to perform:
+1. Get a list of employee worked for 'X' consecutive days
+2. Get a list of employee who has less than 'X' hours and greater than 'Y' hours between shifts.
+3. Get a list of employee worked for more than 'X' hours in a shift
+4 Exit
+4 
+Exiting the program...
+PS E:\bluejay delivery> 
